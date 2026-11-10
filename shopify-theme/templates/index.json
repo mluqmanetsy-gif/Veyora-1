@@ -155,13 +155,505 @@
         "products_to_show": 4,
         "button_label": "Shop the edit"
       }
+    },
+    "dept-clothes": {
+      "type": "veyora-department-showcase",
+      "blocks": {
+        "clothes-sub-1": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Unstitched",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-2": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Stitched",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-3": {
+          "type": "subcategory",
+          "settings": {
+            "title": "2 Piece Suits",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-4": {
+          "type": "subcategory",
+          "settings": {
+            "title": "3 Piece Suits",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-5": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Co-ord Sets",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-6": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Tops",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-7": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Kurtis",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-8": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Trousers & Pants",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-9": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Jeans",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-10": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Dresses",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-11": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Skirts",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "clothes-sub-12": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Modest Fashion",
+            "link": "/collections/clothes",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+          }
+        }
+      },
+      "block_order": [
+        "clothes-sub-1",
+        "clothes-sub-2",
+        "clothes-sub-3",
+        "clothes-sub-4",
+        "clothes-sub-5",
+        "clothes-sub-6",
+        "clothes-sub-7",
+        "clothes-sub-8",
+        "clothes-sub-9",
+        "clothes-sub-10",
+        "clothes-sub-11",
+        "clothes-sub-12"
+      ],
+      "settings": {
+        "eyebrow": "Department 01",
+        "heading": "Clothes",
+        "fallback_banner": "hero_pakistani_clothes_1794307354321.jpg"
+      }
+    },
+    "dept-innerwear": {
+      "type": "veyora-department-showcase",
+      "blocks": {
+        "innerwear-sub-1": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Bras",
+            "link": "/collections/innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "innerwear-sub-2": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Panties",
+            "link": "/collections/innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "innerwear-sub-3": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Bra & Panty Sets",
+            "link": "/collections/innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "innerwear-sub-4": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Shapewear",
+            "link": "/collections/innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "innerwear-sub-5": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Camisoles",
+            "link": "/collections/innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "innerwear-sub-6": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Innerwear Essentials",
+            "link": "/collections/innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+          }
+        }
+      },
+      "block_order": [
+        "innerwear-sub-1",
+        "innerwear-sub-2",
+        "innerwear-sub-3",
+        "innerwear-sub-4",
+        "innerwear-sub-5",
+        "innerwear-sub-6"
+      ],
+      "settings": {
+        "eyebrow": "Department 02",
+        "heading": "Innerwear",
+        "fallback_banner": "hero_luxury_innerwear_1794307356804.jpg"
+      }
+    },
+    "dept-nightwear": {
+      "type": "veyora-department-showcase",
+      "blocks": {
+        "nightwear-sub-1": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Night Suits",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "nightwear-sub-2": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Pajama Sets",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "nightwear-sub-3": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Sleepwear",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "nightwear-sub-4": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Night Dresses",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "nightwear-sub-5": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Robes",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "nightwear-sub-6": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Lounge Sets",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "nightwear-sub-7": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Shorts Sets",
+            "link": "/collections/nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+          }
+        }
+      },
+      "block_order": [
+        "nightwear-sub-1",
+        "nightwear-sub-2",
+        "nightwear-sub-3",
+        "nightwear-sub-4",
+        "nightwear-sub-5",
+        "nightwear-sub-6",
+        "nightwear-sub-7"
+      ],
+      "settings": {
+        "eyebrow": "Department 03",
+        "heading": "Nightwear",
+        "fallback_banner": "hero_pakistani_nightwear_1794307379331.jpg"
+      }
+    },
+    "dept-footwear": {
+      "type": "veyora-department-showcase",
+      "blocks": {
+        "footwear-sub-1": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Flats",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "footwear-sub-2": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Sandals",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "footwear-sub-3": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Heels",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "footwear-sub-4": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Sneakers",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "footwear-sub-5": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Khussas",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "footwear-sub-6": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Slides",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "footwear-sub-7": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Boots",
+            "link": "/collections/footwear",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+          }
+        }
+      },
+      "block_order": [
+        "footwear-sub-1",
+        "footwear-sub-2",
+        "footwear-sub-3",
+        "footwear-sub-4",
+        "footwear-sub-5",
+        "footwear-sub-6",
+        "footwear-sub-7"
+      ],
+      "settings": {
+        "eyebrow": "Department 04",
+        "heading": "Footwear",
+        "fallback_banner": "hero_pakistani_footwear_1794307355920.jpg"
+      }
+    },
+    "dept-bags": {
+      "type": "veyora-department-showcase",
+      "blocks": {
+        "bags-sub-1": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Handbags",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "bags-sub-2": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Shoulder Bags",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "bags-sub-3": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Crossbody Bags",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "bags-sub-4": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Tote Bags",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "bags-sub-5": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Clutches",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "bags-sub-6": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Backpacks",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "bags-sub-7": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Wallets",
+            "link": "/collections/bags",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+          }
+        }
+      },
+      "block_order": [
+        "bags-sub-1",
+        "bags-sub-2",
+        "bags-sub-3",
+        "bags-sub-4",
+        "bags-sub-5",
+        "bags-sub-6",
+        "bags-sub-7"
+      ],
+      "settings": {
+        "eyebrow": "Department 05",
+        "heading": "Bags",
+        "fallback_banner": "hero_pakistani_bags_1794307356888.jpg"
+      }
+    },
+    "dept-accessories": {
+      "type": "veyora-department-showcase",
+      "blocks": {
+        "accessories-sub-1": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Jewellery",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "accessories-sub-2": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Sunglasses",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "accessories-sub-3": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Belts",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "accessories-sub-4": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Scarves",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "accessories-sub-5": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Hair Accessories",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "accessories-sub-6": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Caps & Hats",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+          }
+        },
+        "accessories-sub-7": {
+          "type": "subcategory",
+          "settings": {
+            "title": "Fashion Accessories",
+            "link": "/collections/accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+          }
+        }
+      },
+      "block_order": [
+        "accessories-sub-1",
+        "accessories-sub-2",
+        "accessories-sub-3",
+        "accessories-sub-4",
+        "accessories-sub-5",
+        "accessories-sub-6",
+        "accessories-sub-7"
+      ],
+      "settings": {
+        "eyebrow": "Department 06",
+        "heading": "Accessories",
+        "fallback_banner": "hero_pakistani_accessories_1794307379655.jpg"
+      }
     }
   },
   "order": [
     "hero",
     "departments",
     "new-arrivals",
+    "editorial",
     "complete-look",
-    "editorial"
+    "dept-clothes",
+    "dept-innerwear",
+    "dept-nightwear",
+    "dept-footwear",
+    "dept-bags",
+    "dept-accessories"
   ]
 }
