@@ -1,18 +1,42 @@
-<footer class="footer">
+<footer class="veyora-footer">
+  <div class="veyora-newsletter">
+    <span class="eyebrow">Exclusive previews & seasonal edits</span>
+    <h2>Join the VEYORA Circle</h2>
+    <p>Get updates on new collections, style edits and special launches.</p>
+    {% form 'customer', class: 'veyora-newsletter-form' %}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <label class="visually-hidden" for="VeyoraNewsletterEmail">Email address</label>
+      <input id="VeyoraNewsletterEmail" type="email" name="contact[email]" value="{{ form.email }}" placeholder="Enter your email address" autocorrect="off" autocapitalize="off" required>
+      <button class="btn" type="submit">Subscribe</button>
+      {% if form.posted_successfully? %}<p class="newsletter-success">Thank you for joining VEYORA.</p>{% endif %}
+      {% if form.errors %}<div class="form-message form-message--error">{{ form.errors | default_errors }}</div>{% endif %}
+    {% endform %}
+  </div>
   <div class="footer-inner">
-    <div class="footer-brand"><div class="brand">VEYORA</div><p class="tagline">Elegance in Every Detail</p><p>Modern fashion, thoughtfully curated for her.</p></div>
-    <div class="footer-contact"><h3>Contact</h3><p><a href="mailto:mluqmanetsy@gmail.com">mluqmanetsy@gmail.com</a></p><p><a href="https://wa.me/923494968548">WhatsApp +92 349 4968548</a></p></div>
-    <div class="footer-social"><h3>Follow VEYORA</h3><p><a href="https://www.instagram.com/veyoraofficiall/" rel="me">Instagram</a></p><p><a href="https://www.facebook.com/share/1HLbqfwqm3/">Facebook</a></p><p><a href="https://www.tiktok.com/@veyoraofficiall">TikTok</a></p></div>
-    <div class="footer-policies"><h3>Customer care</h3>
+    <div class="footer-brand">
+      <div class="brand">VEYORA</div><p class="tagline">Elegance in Every Detail</p>
+      <p>Thoughtfully curated fashion and everyday essentials for women across Pakistan.</p>
+      <p>Karachi, Pakistan · Nationwide Cash on Delivery</p>
+      <p><a href="mailto:mluqmanetsy@gmail.com">mluqmanetsy@gmail.com</a></p>
+      <p><a href="https://wa.me/923494968548" target="_blank" rel="noopener">WhatsApp +92 349 4968548</a></p>
+      <div class="footer-social"><a href="https://www.facebook.com/share/1HLbqfwqm3/" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/veyoraofficiall/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@veyoraofficiall" target="_blank" rel="noopener">TikTok</a></div>
+    </div>
+    <div><h3>Shop Departments</h3>
+      <p><a href="/collections/clothes">Clothes & Pret</a></p><p><a href="/collections/innerwear">Innerwear</a></p><p><a href="/collections/nightwear">Nightwear & Loungewear</a></p><p><a href="/collections/footwear">Footwear</a></p><p><a href="/collections/bags">Bags</a></p><p><a href="/collections/accessories">Accessories</a></p><p><a href="/collections/all">Shop All</a></p>
+    </div>
+    <div><h3>Customer Care</h3>
+      <p><a href="/pages/contact">Contact Us</a></p><p><a href="/pages/faqs">FAQs</a></p><p><a href="/pages/order-tracking">Track Your Order</a></p><p><a href="/pages/size-guide">Size Guide</a></p><p><a href="/pages/rewards">Rewards Club</a></p><p><a href="/pages/ai-style-studio">AI Style Studio</a></p>
+    </div>
+    <div><h3>Policies & Information</h3>
       {% if shop.policies.privacy_policy != blank %}<p><a href="{{ shop.policies.privacy_policy.url }}">Privacy Policy</a></p>{% endif %}
-      {% if shop.policies.refund_policy != blank %}<p><a href="{{ shop.policies.refund_policy.url }}">Refund Policy</a></p>{% endif %}
+      {% if shop.policies.refund_policy != blank %}<p><a href="{{ shop.policies.refund_policy.url }}">Refund & Exchange Policy</a></p>{% endif %}
       {% if shop.policies.terms_of_service != blank %}<p><a href="{{ shop.policies.terms_of_service.url }}">Terms of Service</a></p>{% endif %}
       {% if shop.policies.shipping_policy != blank %}<p><a href="{{ shop.policies.shipping_policy.url }}">Shipping Policy</a></p>{% endif %}
-      <p><a href="{{ routes.root_url }}pages/contact">Contact us</a></p>
     </div>
   </div>
-  <small>© {{ 'now' | date: '%Y' }} VEYORA. All rights reserved.</small>
+  <div class="footer-bottom"><small>© {{ 'now' | date: '%Y' }} VEYORA. All rights reserved.</small><a href="{{ routes.search_url }}">Search</a><a href="{{ routes.account_url }}">My Account</a><a href="{{ routes.cart_url }}">Shopping Bag ({{ cart.item_count }})</a></div>
 </footer>
-{% schema %}
-{"name":"VEYORA footer","settings":[]}
-{% endschema %}
+<style>
+.veyora-footer{background:#171513;color:#f6f2ec;padding:56px 24px 22px}.veyora-newsletter{text-align:center;max-width:680px;margin:0 auto 48px;padding-bottom:42px;border-bottom:1px solid #393431}.veyora-newsletter h2{font-size:38px;margin:8px 0}.veyora-newsletter p{color:#c9c2bb;font-size:13px}.veyora-newsletter-form{display:flex;gap:8px;max-width:470px;margin:18px auto 0}.veyora-newsletter-form input{flex:1;min-width:0;background:#24211f;border-color:#514941;color:white}.footer-inner{max-width:1280px;margin:0 auto 36px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:32px;text-align:left}.footer-inner h3{font:500 21px 'Cormorant Garamond',serif;color:#b69a70;margin:0 0 14px}.footer-inner p{font-size:12px;line-height:1.8;margin:7px 0;color:#d5cec7}.footer-inner a,.footer-bottom a{color:#e6d8c7}.footer-inner a:hover,.footer-bottom a:hover{color:#b69a70}.footer-social{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px;font-size:12px}.footer-bottom{max-width:1280px;margin:auto;border-top:1px solid #393431;padding-top:18px;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap;font-size:11px;color:#c9c2bb}.newsletter-success{color:#b69a70!important}@media(max-width:800px){.footer-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.veyora-newsletter-form{flex-direction:column}.veyora-newsletter-form .btn{width:100%}}@media(max-width:480px){.footer-inner{grid-template-columns:1fr}.footer-bottom{justify-content:flex-start}}
+</style>
+{% schema %}{"name":"VEYORA footer","settings":[]}{% endschema %}
