@@ -26,3 +26,32 @@
 .veyora-editorial-copy p{line-height:1.85;color:#eee;margin:0 0 24px}
 .complete-look .section-head p{max-width:620px;margin:12px auto 0;color:#777;line-height:1.7}
 @media(max-width:800px){.veyora-editorial{grid-template-columns:1fr}.veyora-editorial-media,.veyora-editorial-media img{min-height:300px}.veyora-editorial-copy{padding:42px 24px}}
+
+.product-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-content:start}
+.product-gallery-item:first-child{grid-column:span 2}
+.product-gallery-item img{width:100%;height:auto;object-fit:cover;background:var(--cream)}
+.product-details{position:sticky;top:120px;align-self:start}
+.product-title{font-size:clamp(36px,4vw,52px);line-height:1.08;margin:10px 0}
+.product-description{margin:22px 0;line-height:1.85}
+.product-details form{display:grid;gap:12px;max-width:460px}
+.product-details form label{font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.product-details form select,.product-details form input{width:100%}
+.product-add-button{width:100%;margin-top:8px}
+.product-assurance{font-size:12px;color:#777;line-height:1.7;margin-top:20px}
+.form-message{padding:12px;background:var(--cream);margin-top:12px}
+.form-message--error{border-left:3px solid var(--burgundy)}
+.cart-items{border-top:1px solid #e9e5df}
+.cart-item{display:grid;grid-template-columns:130px 1fr auto;gap:22px;padding:22px 0;border-bottom:1px solid #e9e5df;align-items:start}
+.cart-item-image img{width:130px;aspect-ratio:3/4;object-fit:cover}
+.cart-item-title{font-family:'Cormorant Garamond',serif;font-size:24px}
+.cart-item-info p{margin:7px 0;color:#777}
+.cart-item-info label{display:block;font-size:12px;margin:12px 0 5px}
+.cart-item-info input{width:90px}
+.cart-remove{display:inline-block;margin-left:12px;text-decoration:underline;font-size:12px}
+.cart-line-total{font-weight:500}
+.cart-summary{max-width:520px;margin:30px 0 0 auto}
+.cart-subtotal{display:flex;justify-content:space-between;font-size:20px}
+.cart-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.btn-secondary{background:var(--ink)}
+.cart-empty{text-align:center;padding:35px 0}
+@media(max-width:800px){.product-details{position:static}.product-gallery{grid-template-columns:1fr}.product-gallery-item:first-child{grid-column:auto}.cart-item{grid-template-columns:92px 1fr;gap:14px}.cart-item-image img{width:92px}.cart-line-total{grid-column:2}.cart-actions{flex-direction:column}.cart-actions .btn{width:100%;text-align:center}}
