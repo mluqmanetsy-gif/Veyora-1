@@ -1,7 +1,7 @@
 <section class="veyora-slider" data-veyora-slider data-autoplay="{{ section.settings.autoplay }}" data-interval="{{ section.settings.interval | times: 1000 }}" aria-label="VEYORA featured collections">
   {% for block in section.blocks %}
     <article class="veyora-slide{% if forloop.first %} is-active{% endif %}" data-slide="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
-      {% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 2200 | image_tag: class: 'veyora-slide-image', loading: 'eager', alt: block.settings.heading }}{% endif %}
+      {% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 2200 | image_tag: class: 'veyora-slide-image', loading: 'eager', alt: block.settings.heading }}{% else %}{% assign slide_fallbacks = 'hero_pakistani_clothes_1794307354321.jpg,hero_pakistani_footwear_1794307355920.jpg,hero_pakistani_bags_1794307356888.jpg,hero_luxury_innerwear_1794307356804.jpg,hero_pakistani_nightwear_1794307379331.jpg,hero_pakistani_accessories_1794307379655.jpg' | split: ',' %}<img class="veyora-slide-image" src="https://raw.githubusercontent.com/mluqmanetsy-gif/Veyora-1/main/src/assets/images/{{ slide_fallbacks[forloop.index0] }}" alt="{{ block.settings.heading | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">{% endif %}
       <div class="veyora-slide-shade"></div>
       <div class="veyora-slide-copy">
         {% if block.settings.eyebrow != blank %}<span class="eyebrow">{{ block.settings.eyebrow | escape }}</span>{% endif %}
