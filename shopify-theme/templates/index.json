@@ -83,37 +83,43 @@
         "clothes": {
           "type": "department",
           "settings": {
-            "title": "Clothes"
+            "title": "Clothes",
+            "collection": "womens-clothing"
           }
         },
         "innerwear": {
           "type": "department",
           "settings": {
-            "title": "Innerwear"
+            "title": "Innerwear",
+            "collection": "womens-innerwear"
           }
         },
         "nightwear": {
           "type": "department",
           "settings": {
-            "title": "Nightwear"
+            "title": "Nightwear",
+            "collection": "womens-nightwear-loungewear"
           }
         },
         "footwear": {
           "type": "department",
           "settings": {
-            "title": "Footwear"
+            "title": "Footwear",
+            "collection": "womens-footwear"
           }
         },
         "bags": {
           "type": "department",
           "settings": {
-            "title": "Bags"
+            "title": "Bags",
+            "collection": "womens-bags"
           }
         },
         "accessories": {
           "type": "department",
           "settings": {
-            "title": "Accessories"
+            "title": "Accessories",
+            "collection": "womens-fashion-accessories"
           }
         }
       },
