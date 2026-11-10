@@ -18,6 +18,12 @@
 - Editable Shopify navigation menu and accessible mobile menu toggle.
 - Product cards use Shopify product/collection objects, not the React demo product array.
 
+## Product and cart behavior
+- Product page renders Shopify product media, title, description, live variant pricing, availability and add-to-cart form.
+- Cart uses Shopify cart items, quantity updates, remove links, live subtotal and Shopify checkout route.
+- Product and cart layouts have responsive mobile styling.
+- These changes are code-reviewed and schema-JSON validated; Shopify Theme Check and an actual store preview are still pending.
+
 ## Remaining before store-ready
 1. Migrate/choose approved campaign and department images in Shopify theme settings. Original source image binaries have not yet been migrated.
 2. Assign the six department blocks to the store's real Shopify collections.
