@@ -1,2 +1,18 @@
-<footer class="footer"><div class="brand">VEYORA</div><p class="tagline">Elegance in Every Detail</p><p>Modern fashion, thoughtfully curated for her.</p><p><a href="mailto:mluqmanetsy@gmail.com">mluqmanetsy@gmail.com</a> · <a href="https://wa.me/923494968548">WhatsApp +92 349 4968548</a></p><p><a href="https://www.instagram.com/veyoraofficiall/">Instagram</a> · <a href="https://www.facebook.com/share/1HLbqfwqm3/">Facebook</a> · <a href="https://www.tiktok.com/@veyoraofficiall">TikTok</a></p><small>© {{ 'now' | date: '%Y' }} VEYORA. All rights reserved.</small></footer>
-{% schema %}{"name":"VEYORA footer","settings":[]} {% endschema %}
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><div class="brand">VEYORA</div><p class="tagline">Elegance in Every Detail</p><p>Modern fashion, thoughtfully curated for her.</p></div>
+    <div class="footer-contact"><h3>Contact</h3><p><a href="mailto:mluqmanetsy@gmail.com">mluqmanetsy@gmail.com</a></p><p><a href="https://wa.me/923494968548">WhatsApp +92 349 4968548</a></p></div>
+    <div class="footer-social"><h3>Follow VEYORA</h3><p><a href="https://www.instagram.com/veyoraofficiall/" rel="me">Instagram</a></p><p><a href="https://www.facebook.com/share/1HLbqfwqm3/">Facebook</a></p><p><a href="https://www.tiktok.com/@veyoraofficiall">TikTok</a></p></div>
+    <div class="footer-policies"><h3>Customer care</h3>
+      {% if shop.policies.privacy_policy != blank %}<p><a href="{{ shop.policies.privacy_policy.url }}">Privacy Policy</a></p>{% endif %}
+      {% if shop.policies.refund_policy != blank %}<p><a href="{{ shop.policies.refund_policy.url }}">Refund Policy</a></p>{% endif %}
+      {% if shop.policies.terms_of_service != blank %}<p><a href="{{ shop.policies.terms_of_service.url }}">Terms of Service</a></p>{% endif %}
+      {% if shop.policies.shipping_policy != blank %}<p><a href="{{ shop.policies.shipping_policy.url }}">Shipping Policy</a></p>{% endif %}
+      <p><a href="{{ routes.root_url }}pages/contact">Contact us</a></p>
+    </div>
+  </div>
+  <small>© {{ 'now' | date: '%Y' }} VEYORA. All rights reserved.</small>
+</footer>
+{% schema %}
+{"name":"VEYORA footer","settings":[]}
+{% endschema %}
