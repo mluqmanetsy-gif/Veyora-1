@@ -1,0 +1,13 @@
+[
+  {"name":"theme_info","theme_name":"VEYORA Editorial","theme_version":"1.0.0","theme_author":"VEYORA","theme_documentation_url":"","theme_support_url":""},
+  {"name":"Brand colors","settings":[
+    {"type":"color","id":"ink","label":"Ink","default":"#171513"},
+    {"type":"color","id":"burgundy","label":"Burgundy","default":"#702B3A"},
+    {"type":"color","id":"gold","label":"Champagne gold","default":"#B69A70"},
+    {"type":"color","id":"cream","label":"Soft cream","default":"#FAF8F5"}
+  ]},
+  {"name":"Store messaging","settings":[
+    {"type":"text","id":"announcement","label":"Announcement bar","default":"Nationwide Cash on Delivery across Pakistan"},
+    {"type":"text","id":"shipping_message","label":"Shipping message","default":"Free shipping on orders over Rs. 3,500"}
+  ]}
+]
