@@ -24,6 +24,12 @@
 - Product and cart layouts have responsive mobile styling.
 - These changes are code-reviewed and schema-JSON validated; Shopify Theme Check and an actual store preview are still pending.
 
+## Storefront page improvements
+- Collection template includes native Shopify sorting, product count, product cards, pagination, and empty state.
+- Search template uses Shopify search, escaped query display, product cards, pagination, and empty state.
+- Footer includes contact/social details and conditional links to configured Shopify policies.
+- Collection, search, footer, product and cart section schema JSON has been checked for valid JSON. This is not a substitute for Shopify Theme Check or a live preview.
+
 ## Remaining before store-ready
 1. Migrate/choose approved campaign and department images in Shopify theme settings. Original source image binaries have not yet been migrated.
 2. Assign the six department blocks to the store's real Shopify collections.
