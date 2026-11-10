@@ -645,6 +645,14 @@
     "ai-studio": {
       "type": "veyora-ai-studio",
       "settings": {}
+    },
+    "best-sellers": {
+      "type": "veyora-featured-collection",
+      "settings": {
+        "eyebrow": "Customer favourites",
+        "heading": "Best Sellers",
+        "products_to_show": 4
+      }
     }
   },
   "order": [
@@ -652,6 +660,7 @@
     "departments",
     "new-arrivals",
     "editorial",
+    "best-sellers",
     "ai-studio",
     "complete-look",
     "dept-clothes",
