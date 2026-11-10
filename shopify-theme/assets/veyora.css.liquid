@@ -55,3 +55,17 @@
 .btn-secondary{background:var(--ink)}
 .cart-empty{text-align:center;padding:35px 0}
 @media(max-width:800px){.product-details{position:static}.product-gallery{grid-template-columns:1fr}.product-gallery-item:first-child{grid-column:auto}.cart-item{grid-template-columns:92px 1fr;gap:14px}.cart-item-image img{width:92px}.cart-line-total{grid-column:2}.cart-actions{flex-direction:column}.cart-actions .btn{width:100%;text-align:center}}
+
+.collection-description{max-width:720px;margin:14px auto}
+.collection-toolbar{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin:0 0 24px}
+.collection-toolbar form{display:flex}.collection-toolbar select{min-width:180px}
+.pagination{text-align:center;margin:36px 0}.pagination a,.pagination span{display:inline-block;padding:8px 12px}
+.search-form{max-width:650px;margin:0 auto 32px;display:flex;gap:10px}
+.search-form input[type=search]{flex:1;min-width:0}.search-count{margin-bottom:24px;color:#777}
+.empty-state{text-align:center;padding:50px 15px;color:#777}
+.search-other-result{padding:20px;border-bottom:1px solid #eee}
+.footer-inner{max-width:1280px;margin:0 auto 32px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;text-align:left}
+.footer-inner h3{font:500 20px 'Cormorant Garamond',serif;color:var(--gold)}
+.footer-inner p{font-size:13px;line-height:1.7;margin:7px 0}
+.footer small{display:block;border-top:1px solid #393431;padding-top:20px}
+@media(max-width:800px){.footer-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.search-form{flex-direction:column}.search-form .btn{width:100%}.collection-toolbar{justify-content:space-between}.collection-toolbar select{min-width:150px}}
