@@ -163,96 +163,108 @@
           "type": "subcategory",
           "settings": {
             "title": "Unstitched",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-unstitched-suits",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-unstitched-suits"
           }
         },
         "clothes-sub-2": {
           "type": "subcategory",
           "settings": {
             "title": "Stitched",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-stitched-suits",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-stitched-suits"
           }
         },
         "clothes-sub-3": {
           "type": "subcategory",
           "settings": {
             "title": "2 Piece Suits",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-stitched-suits",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-stitched-suits"
           }
         },
         "clothes-sub-4": {
           "type": "subcategory",
           "settings": {
             "title": "3 Piece Suits",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-stitched-suits",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-stitched-suits"
           }
         },
         "clothes-sub-5": {
           "type": "subcategory",
           "settings": {
             "title": "Co-ord Sets",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-co-ord-sets",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-co-ord-sets"
           }
         },
         "clothes-sub-6": {
           "type": "subcategory",
           "settings": {
             "title": "Tops",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-tops-shirts",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-tops-shirts"
           }
         },
         "clothes-sub-7": {
           "type": "subcategory",
           "settings": {
             "title": "Kurtis",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-kurtis",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-kurtis"
           }
         },
         "clothes-sub-8": {
           "type": "subcategory",
           "settings": {
             "title": "Trousers & Pants",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-jeans-trousers-skirts",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-jeans-trousers-skirts"
           }
         },
         "clothes-sub-9": {
           "type": "subcategory",
           "settings": {
             "title": "Jeans",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-jeans-trousers-skirts",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-jeans-trousers-skirts"
           }
         },
         "clothes-sub-10": {
           "type": "subcategory",
           "settings": {
             "title": "Dresses",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-maxi-dresses",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-maxi-dresses"
           }
         },
         "clothes-sub-11": {
           "type": "subcategory",
           "settings": {
             "title": "Skirts",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-jeans-trousers-skirts",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-jeans-trousers-skirts"
           }
         },
         "clothes-sub-12": {
           "type": "subcategory",
           "settings": {
             "title": "Modest Fashion",
-            "link": "/collections/clothes",
-            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-modest-fashion",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-modest-fashion"
           }
         }
       },
@@ -273,7 +285,8 @@
       "settings": {
         "eyebrow": "Department 01",
         "heading": "Clothes",
-        "fallback_banner": "hero_pakistani_clothes_1794307354321.jpg"
+        "fallback_banner": "hero_pakistani_clothes_1794307354321.jpg",
+        "collection": "womens-clothing"
       }
     },
     "dept-innerwear": {
@@ -283,48 +296,54 @@
           "type": "subcategory",
           "settings": {
             "title": "Bras",
-            "link": "/collections/innerwear",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-bras",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-bras"
           }
         },
         "innerwear-sub-2": {
           "type": "subcategory",
           "settings": {
             "title": "Panties",
-            "link": "/collections/innerwear",
-            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-panties",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-panties"
           }
         },
         "innerwear-sub-3": {
           "type": "subcategory",
           "settings": {
             "title": "Bra & Panty Sets",
-            "link": "/collections/innerwear",
-            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-innerwear"
           }
         },
         "innerwear-sub-4": {
           "type": "subcategory",
           "settings": {
             "title": "Shapewear",
-            "link": "/collections/innerwear",
-            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-shapewear",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-shapewear"
           }
         },
         "innerwear-sub-5": {
           "type": "subcategory",
           "settings": {
             "title": "Camisoles",
-            "link": "/collections/innerwear",
-            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-camisoles",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-camisoles"
           }
         },
         "innerwear-sub-6": {
           "type": "subcategory",
           "settings": {
             "title": "Innerwear Essentials",
-            "link": "/collections/innerwear",
-            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-innerwear",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-innerwear"
           }
         }
       },
@@ -339,7 +358,8 @@
       "settings": {
         "eyebrow": "Department 02",
         "heading": "Innerwear",
-        "fallback_banner": "hero_luxury_innerwear_1794307356804.jpg"
+        "fallback_banner": "hero_luxury_innerwear_1794307356804.jpg",
+        "collection": "womens-innerwear"
       }
     },
     "dept-nightwear": {
@@ -349,56 +369,63 @@
           "type": "subcategory",
           "settings": {
             "title": "Night Suits",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-nightwear"
           }
         },
         "nightwear-sub-2": {
           "type": "subcategory",
           "settings": {
             "title": "Pajama Sets",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-nightwear"
           }
         },
         "nightwear-sub-3": {
           "type": "subcategory",
           "settings": {
             "title": "Sleepwear",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-nightwear"
           }
         },
         "nightwear-sub-4": {
           "type": "subcategory",
           "settings": {
             "title": "Night Dresses",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-nightwear"
           }
         },
         "nightwear-sub-5": {
           "type": "subcategory",
           "settings": {
             "title": "Robes",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-nightwear",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-nightwear"
           }
         },
         "nightwear-sub-6": {
           "type": "subcategory",
           "settings": {
             "title": "Lounge Sets",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-loungewear",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-loungewear"
           }
         },
         "nightwear-sub-7": {
           "type": "subcategory",
           "settings": {
             "title": "Shorts Sets",
-            "link": "/collections/nightwear",
-            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-loungewear",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-loungewear"
           }
         }
       },
@@ -414,7 +441,8 @@
       "settings": {
         "eyebrow": "Department 03",
         "heading": "Nightwear",
-        "fallback_banner": "hero_pakistani_nightwear_1794307379331.jpg"
+        "fallback_banner": "hero_pakistani_nightwear_1794307379331.jpg",
+        "collection": "womens-nightwear-loungewear"
       }
     },
     "dept-footwear": {
@@ -424,56 +452,63 @@
           "type": "subcategory",
           "settings": {
             "title": "Flats",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-flats",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-flats"
           }
         },
         "footwear-sub-2": {
           "type": "subcategory",
           "settings": {
             "title": "Sandals",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-sandals",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-sandals"
           }
         },
         "footwear-sub-3": {
           "type": "subcategory",
           "settings": {
             "title": "Heels",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-heels",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-heels"
           }
         },
         "footwear-sub-4": {
           "type": "subcategory",
           "settings": {
             "title": "Sneakers",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-sneakers",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-sneakers"
           }
         },
         "footwear-sub-5": {
           "type": "subcategory",
           "settings": {
             "title": "Khussas",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-khussas",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-khussas"
           }
         },
         "footwear-sub-6": {
           "type": "subcategory",
           "settings": {
             "title": "Slides",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-slippers",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-slippers"
           }
         },
         "footwear-sub-7": {
           "type": "subcategory",
           "settings": {
             "title": "Boots",
-            "link": "/collections/footwear",
-            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-boots",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-boots"
           }
         }
       },
@@ -489,7 +524,8 @@
       "settings": {
         "eyebrow": "Department 04",
         "heading": "Footwear",
-        "fallback_banner": "hero_pakistani_footwear_1794307355920.jpg"
+        "fallback_banner": "hero_pakistani_footwear_1794307355920.jpg",
+        "collection": "womens-footwear"
       }
     },
     "dept-bags": {
@@ -499,56 +535,63 @@
           "type": "subcategory",
           "settings": {
             "title": "Handbags",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-handbags",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-handbags"
           }
         },
         "bags-sub-2": {
           "type": "subcategory",
           "settings": {
             "title": "Shoulder Bags",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-shoulder-bags",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-shoulder-bags"
           }
         },
         "bags-sub-3": {
           "type": "subcategory",
           "settings": {
             "title": "Crossbody Bags",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-crossbody-bags",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-crossbody-bags"
           }
         },
         "bags-sub-4": {
           "type": "subcategory",
           "settings": {
             "title": "Tote Bags",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-tote-bags",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-tote-bags"
           }
         },
         "bags-sub-5": {
           "type": "subcategory",
           "settings": {
             "title": "Clutches",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-clutches-party-bags",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-clutches-party-bags"
           }
         },
         "bags-sub-6": {
           "type": "subcategory",
           "settings": {
             "title": "Backpacks",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-backpacks",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-backpacks"
           }
         },
         "bags-sub-7": {
           "type": "subcategory",
           "settings": {
             "title": "Wallets",
-            "link": "/collections/bags",
-            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-wallets",
+            "fallback_image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-wallets"
           }
         }
       },
@@ -564,7 +607,8 @@
       "settings": {
         "eyebrow": "Department 05",
         "heading": "Bags",
-        "fallback_banner": "hero_pakistani_bags_1794307356888.jpg"
+        "fallback_banner": "hero_pakistani_bags_1794307356888.jpg",
+        "collection": "womens-bags"
       }
     },
     "dept-accessories": {
@@ -574,56 +618,63 @@
           "type": "subcategory",
           "settings": {
             "title": "Jewellery",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-jewellery",
+            "fallback_image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-jewellery"
           }
         },
         "accessories-sub-2": {
           "type": "subcategory",
           "settings": {
             "title": "Sunglasses",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-sunglasses",
+            "fallback_image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-sunglasses"
           }
         },
         "accessories-sub-3": {
           "type": "subcategory",
           "settings": {
             "title": "Belts",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-belts",
+            "fallback_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-belts"
           }
         },
         "accessories-sub-4": {
           "type": "subcategory",
           "settings": {
             "title": "Scarves",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-scarves-stoles",
+            "fallback_image": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-scarves-stoles"
           }
         },
         "accessories-sub-5": {
           "type": "subcategory",
           "settings": {
             "title": "Hair Accessories",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-hair-accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-hair-accessories"
           }
         },
         "accessories-sub-6": {
           "type": "subcategory",
           "settings": {
             "title": "Caps & Hats",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-fashion-accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-fashion-accessories"
           }
         },
         "accessories-sub-7": {
           "type": "subcategory",
           "settings": {
             "title": "Fashion Accessories",
-            "link": "/collections/accessories",
-            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
+            "link": "/collections/womens-fashion-accessories",
+            "fallback_image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+            "collection": "womens-fashion-accessories"
           }
         }
       },
@@ -639,7 +690,8 @@
       "settings": {
         "eyebrow": "Department 06",
         "heading": "Accessories",
-        "fallback_banner": "hero_pakistani_accessories_1794307379655.jpg"
+        "fallback_banner": "hero_pakistani_accessories_1794307379655.jpg",
+        "collection": "womens-fashion-accessories"
       }
     },
     "ai-studio": {
