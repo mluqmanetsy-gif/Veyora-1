@@ -13,7 +13,9 @@ This folder is a Shopify Online Store 2.0 theme scaffold based on the approved V
 - VEYORA palette: ink, burgundy, champagne gold, soft cream.
 - Cormorant Garamond + Jost typography.
 - Editable hero, six department circles, featured collection, editorial statement.
-- Shopify-native collection, product, and cart templates.
+- Shopify-native collection, product, cart, search, standard page, and 404 templates.
+- Editable Shopify navigation menu setting and accessible mobile menu toggle.
+- JSON syntax checked for all section-group, config, and template JSON files (this is not a substitute for Shopify Theme Check).
 - Featured collections and product cards use Shopify Liquid objects rather than the React demo product array.
 
 ## Still required before a store-ready upload
