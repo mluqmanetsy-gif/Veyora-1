@@ -657,22 +657,40 @@
     "trust-story": {
       "type": "veyora-trust",
       "settings": {}
+    },
+    "trending": {
+      "type": "veyora-trending",
+      "settings": {
+        "eyebrow": "The VEYORA edit",
+        "heading": "Trending Now",
+        "link_label": "Shop the edit",
+        "products_to_show": 10
+      }
+    },
+    "customer-reviews": {
+      "type": "veyora-reviews",
+      "settings": {
+        "heading": "Notes from Our Customers",
+        "description": "Real feedback, shared with permission."
+      }
     }
   },
   "order": [
     "hero",
+    "trending",
     "departments",
     "new-arrivals",
     "editorial",
     "best-sellers",
-    "ai-studio",
-    "complete-look",
     "dept-clothes",
     "dept-innerwear",
     "dept-nightwear",
     "dept-footwear",
     "dept-bags",
     "dept-accessories",
-    "trust-story"
+    "complete-look",
+    "ai-studio",
+    "trust-story",
+    "customer-reviews"
   ]
 }
