@@ -1,1 +1,156 @@
-{"sections":{"hero":{"type":"veyora-hero","settings":{"eyebrow":"VEYORA Pret & Luxury","heading":"Elegance in Every Detail.","text":"Thoughtfully curated fashion for every expression of her style.","button_label":"Discover the Collection"}},"departments":{"type":"veyora-categories","blocks":{"clothes":{"type":"department","settings":{"title":"Clothes"}},"innerwear":{"type":"department","settings":{"title":"Innerwear"}},"nightwear":{"type":"department","settings":{"title":"Nightwear"}},"footwear":{"type":"department","settings":{"title":"Footwear"}},"bags":{"type":"department","settings":{"title":"Bags"}},"accessories":{"type":"department","settings":{"title":"Accessories"}}},"block_order":["clothes","innerwear","nightwear","footwear","bags","accessories"],"settings":{"heading":"Shop by Department"}},"new-arrivals":{"type":"veyora-featured-collection","settings":{"eyebrow":"Just landed","heading":"New Arrivals","products_to_show":4}},"editorial":{"type":"veyora-editorial","settings":{"eyebrow":"Our philosophy","heading":"A World of Style, Curated for Her","text":"Rooted in South Asian artistry and shaped by modern silhouettes, VEYORA brings thoughtful style to every day.","button_label":"Explore VEYORA"}}},"order":["hero","departments","new-arrivals","editorial"]}
+{
+  "sections": {
+    "hero": {
+      "type": "veyora-hero",
+      "blocks": {
+        "clothes": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Festive Luxury Pret",
+            "heading": "Discover Your Signature Style",
+            "text": "From elegant Eastern wear to contemporary everyday outfits, find a look that feels uniquely yours.",
+            "button_label": "Shop Clothes",
+            "button_link": "/collections/clothes"
+          }
+        },
+        "footwear": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Artisanal Khussas & Heels",
+            "heading": "Step Into Elegance",
+            "text": "Explore beautiful footwear designed to complete every outfit and every occasion.",
+            "button_label": "Explore Footwear",
+            "button_link": "/collections/footwear"
+          }
+        },
+        "bags": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Signature Leather & Potlis",
+            "heading": "Carry Your Style",
+            "text": "Discover handbags and everyday essentials that bring elegance to every moment.",
+            "button_label": "Shop Bags",
+            "button_link": "/collections/bags"
+          }
+        },
+        "innerwear": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Seamless Essentials",
+            "heading": "Comfort Meets Confidence",
+            "text": "Thoughtfully selected everyday essentials designed for comfort and confidence.",
+            "button_label": "Explore Innerwear",
+            "button_link": "/collections/innerwear"
+          }
+        },
+        "nightwear": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Mulberry Silk & Modals",
+            "heading": "Relax In Your Own Style",
+            "text": "Comfortable nightwear and loungewear for your moments of relaxation.",
+            "button_label": "Shop Nightwear",
+            "button_link": "/collections/nightwear"
+          }
+        },
+        "accessories": {
+          "type": "slide",
+          "settings": {
+            "eyebrow": "Silk Shawls & Jewels",
+            "heading": "The Details Make the Look",
+            "text": "Complete your style with beautiful accessories for every occasion.",
+            "button_label": "Shop Accessories",
+            "button_link": "/collections/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "clothes",
+        "footwear",
+        "bags",
+        "innerwear",
+        "nightwear",
+        "accessories"
+      ],
+      "settings": {
+        "autoplay": true,
+        "interval": 6
+      }
+    },
+    "departments": {
+      "type": "veyora-categories",
+      "blocks": {
+        "clothes": {
+          "type": "department",
+          "settings": {
+            "title": "Clothes"
+          }
+        },
+        "innerwear": {
+          "type": "department",
+          "settings": {
+            "title": "Innerwear"
+          }
+        },
+        "nightwear": {
+          "type": "department",
+          "settings": {
+            "title": "Nightwear"
+          }
+        },
+        "footwear": {
+          "type": "department",
+          "settings": {
+            "title": "Footwear"
+          }
+        },
+        "bags": {
+          "type": "department",
+          "settings": {
+            "title": "Bags"
+          }
+        },
+        "accessories": {
+          "type": "department",
+          "settings": {
+            "title": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "clothes",
+        "innerwear",
+        "nightwear",
+        "footwear",
+        "bags",
+        "accessories"
+      ],
+      "settings": {
+        "heading": "Shop by Department"
+      }
+    },
+    "new-arrivals": {
+      "type": "veyora-featured-collection",
+      "settings": {
+        "eyebrow": "Just landed",
+        "heading": "New Arrivals",
+        "products_to_show": 4
+      }
+    },
+    "editorial": {
+      "type": "veyora-editorial",
+      "settings": {
+        "eyebrow": "Our philosophy",
+        "heading": "A World of Style, Curated for Her",
+        "text": "Rooted in South Asian artistry and shaped by modern silhouettes, VEYORA brings thoughtful style to every day.",
+        "button_label": "Explore VEYORA"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "departments",
+    "new-arrivals",
+    "editorial"
+  ]
+}
