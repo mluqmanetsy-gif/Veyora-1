@@ -1,0 +1,59 @@
+{% liquid
+  assign source_product = product
+  if source_product == blank and cart.item_count > 0
+    assign source_product = cart.items.first.product
+  endif
+  assign recommendation_collection = section.settings.collection
+  if source_product != blank and source_product.collections.size > 0
+    assign recommendation_collection = source_product.collections.first
+  endif
+  assign rendered_count = 0
+%}
+{% if recommendation_collection != blank %}
+<section class="section veyora-recommendations">
+  <div class="section-head">
+    <span class="eyebrow">{{ section.settings.eyebrow | escape }}</span>
+    <h2>{{ section.settings.heading | escape }}</h2>
+    <p>{{ section.settings.description | escape }}</p>
+  </div>
+  <div class="grid">
+    {% for recommended_product in recommendation_collection.products %}
+      {% assign already_in_cart = false %}
+      {% for cart_item in cart.items %}
+        {% if cart_item.product_id == recommended_product.id %}{% assign already_in_cart = true %}{% endif %}
+      {% endfor %}
+      {% if recommended_product.id != source_product.id and already_in_cart == false and recommended_product.available %}
+        <a class="product-card" href="{{ recommended_product.url }}">
+          {% if recommended_product.featured_image %}
+            {{ recommended_product.featured_image | image_url: width: 700 | image_tag: loading: 'lazy', alt: recommended_product.featured_image.alt | default: recommended_product.title }}
+          {% endif %}
+          <h3>{{ recommended_product.title | escape }}</h3>
+          <div class="price">{{ recommended_product.price | money }}</div>
+        </a>
+        {% assign rendered_count = rendered_count | plus: 1 %}
+        {% if rendered_count >= section.settings.products_to_show %}{% break %}{% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% if rendered_count == 0 %}
+    <p class="muted" style="text-align:center">More styles are coming soon. Explore our collection for more.</p>
+  {% endif %}
+  <div style="text-align:center;margin-top:26px">
+    <a class="btn" href="{{ recommendation_collection.url }}">{{ section.settings.button_label | escape }}</a>
+  </div>
+</section>
+{% endif %}
+{% schema %}
+{
+  "name":"You may also like",
+  "settings":[
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"Curated for you"},
+    {"type":"text","id":"heading","label":"Heading","default":"You May Also Like"},
+    {"type":"textarea","id":"description","label":"Description","default":"Discover more pieces to complete your look."},
+    {"type":"collection","id":"collection","label":"Fallback recommendation collection"},
+    {"type":"range","id":"products_to_show","label":"Products to show","min":2,"max":8,"step":1,"default":4},
+    {"type":"text","id":"button_label","label":"Button label","default":"Explore the collection"}
+  ],
+  "presets":[{"name":"You may also like"}]
+}
+{% endschema %}
