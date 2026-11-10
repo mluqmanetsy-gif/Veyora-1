@@ -83,3 +83,18 @@
  .product-gallery-item img{height:min(118vw,520px);max-height:520px;object-fit:contain}
  .product-gallery-item:not(:first-child) img{height:min(95vw,420px);max-height:420px}
 }
+
+/* VEYORA mobile-first product image fit: show the complete garment */
+.product-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.product-gallery-item{min-width:0;background:#f6f2ec;overflow:hidden}
+.product-gallery-item:first-child{grid-column:span 2}
+.product-gallery-item img{display:block;width:100%;height:auto;max-height:560px;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#f6f2ec}
+.product-gallery-item:not(:first-child) img{max-height:420px}
+@media(max-width:800px){
+ .product-layout{display:flex;flex-direction:column;gap:20px}
+ .product-gallery{width:100%;display:grid;grid-template-columns:1fr;gap:10px}
+ .product-gallery-item:first-child{grid-column:auto}
+ .product-gallery-item img,.product-gallery-item:not(:first-child) img{width:100%;height:auto;max-height:unset;aspect-ratio:4/5;object-fit:contain}
+ .product-details{width:100%;position:static}
+ .product-title{font-size:34px}
+}
