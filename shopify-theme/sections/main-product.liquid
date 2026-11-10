@@ -1,2 +1,44 @@
-<section class="section product-layout"><div>{% for media in product.media %}{% if media.media_type == 'image' %}{{ media | image_url: width: 1400 | image_tag: loading: 'lazy', alt: product.title }}{% endif %}{% endfor %}</div><div><span class="eyebrow">VEYORA</span><h1 style="font-size:48px">{{ product.title }}</h1><p class="price-large">{{ product.selected_or_first_available_variant.price | money }}</p>{% if product.description != blank %}<div class="rte">{{ product.description }}</div>{% endif %}{% form 'product', product %}{% unless product.has_only_default_variant %}<label for="VariantSelect">Choose option</label><select id="VariantSelect" name="id">{% for variant in product.variants %}<option value="{{ variant.id }}" {% if variant == product.selected_or_first_available_variant %}selected{% endif %} {% unless variant.available %}disabled{% endunless %}>{{ variant.title }} — {{ variant.price | money }}{% unless variant.available %} (Sold out){% endunless %}</option>{% endfor %}</select>{% else %}<input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">{% endunless %}<label for="Quantity">Quantity</label><input id="Quantity" name="quantity" type="number" min="1" value="1"><button class="btn" type="submit" name="add" {% unless product.available %}disabled{% endunless %}>{% if product.available %}Add to bag{% else %}Sold out{% endif %}</button>{% endform %}<p class="muted">Secure checkout · Cash on Delivery options are configured in Shopify checkout settings.</p></div></section>
-{% schema %}{"name":"Main product","settings":[]} {% endschema %}
+<section class="section product-layout">
+  <div class="product-gallery">
+    {% for media in product.media %}
+      {% if media.media_type == 'image' %}
+        <div class="product-gallery-item">
+          {{ media | image_url: width: 1400 | image_tag: loading: 'lazy', alt: media.alt | default: product.title }}
+        </div>
+      {% elsif media.media_type == 'video' %}
+        {{ media | video_tag: controls: true, image_size: '1000x' }}
+      {% elsif media.media_type == 'external_video' %}
+        {{ media | external_video_tag }}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="product-details">
+    {% if section.settings.show_vendor and product.vendor != blank %}<p class="eyebrow">{{ product.vendor | escape }}</p>{% else %}<span class="eyebrow">VEYORA</span>{% endif %}
+    <h1 class="product-title">{{ product.title | escape }}</h1>
+    <div class="price-large" data-product-price>{{ product.selected_or_first_available_variant.price | money }}</div>
+    {% if product.description != blank %}<div class="rte product-description">{{ product.description }}</div>{% endif %}
+    {% form 'product', product, id: 'VeyoraProductForm' %}
+      {% if form.errors %}<div class="form-message form-message--error" role="alert">{{ form.errors | default_errors }}</div>{% endif %}
+      {% unless product.has_only_default_variant %}
+        <label for="VeyoraVariantSelect">Select size / option</label>
+        <select id="VeyoraVariantSelect" name="id" data-variant-select>
+          {% for variant in product.variants %}
+            <option value="{{ variant.id }}" data-price="{{ variant.price | money | escape }}" {% if variant == product.selected_or_first_available_variant %}selected{% endif %} {% unless variant.available %}disabled{% endunless %}>
+              {{ variant.title | escape }} — {{ variant.price | money }}{% unless variant.available %} (Sold out){% endunless %}
+            </option>
+          {% endfor %}
+        </select>
+      {% else %}
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+      {% endunless %}
+      <label for="VeyoraQuantity">Quantity</label>
+      <input id="VeyoraQuantity" name="quantity" type="number" min="1" value="1" inputmode="numeric">
+      <button class="btn product-add-button" type="submit" name="add" {% unless product.available %}disabled{% endunless %}>{% if product.available %}Add to bag{% else %}Sold out{% endif %}</button>
+      {% if form.posted_successfully? %}<p class="form-message" role="status">Added to your bag.</p>{% endif %}
+    {% endform %}
+    <div class="product-assurance"><p>Secure checkout through Shopify</p><p>Cash on Delivery availability depends on your checkout settings and delivery area.</p></div>
+  </div>
+</section>
+{% schema %}
+{"name":"Main product","settings":[{"type":"checkbox","id":"show_vendor","label":"Show vendor","default":false}]}
+{% endschema %}
