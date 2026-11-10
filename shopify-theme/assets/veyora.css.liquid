@@ -69,3 +69,17 @@
 .footer-inner p{font-size:13px;line-height:1.7;margin:7px 0}
 .footer small{display:block;border-top:1px solid #393431;padding-top:20px}
 @media(max-width:800px){.footer-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.search-form{flex-direction:column}.search-form .btn{width:100%}.collection-toolbar{justify-content:space-between}.collection-toolbar select{min-width:150px}}
+
+
+/* VEYORA product gallery: controlled image sizing, no oversized zoom crop */
+.product-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
+.product-gallery-item{min-width:0;overflow:hidden;background:var(--cream);display:flex;align-items:center;justify-content:center}
+.product-gallery-item:first-child{grid-column:span 2}
+.product-gallery-item img{display:block;width:100%;height:clamp(320px,48vw,620px);max-height:620px;object-fit:contain;object-position:center;background:var(--cream)}
+.product-gallery-item:not(:first-child) img{height:clamp(220px,32vw,420px);max-height:420px}
+@media(max-width:800px){
+ .product-gallery{grid-template-columns:1fr;gap:12px}
+ .product-gallery-item:first-child{grid-column:auto}
+ .product-gallery-item img{height:min(118vw,520px);max-height:520px;object-fit:contain}
+ .product-gallery-item:not(:first-child) img{height:min(95vw,420px);max-height:420px}
+}
