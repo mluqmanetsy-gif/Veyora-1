@@ -1,2 +1,33 @@
-<section class="section"><div class="section-head"><span class="eyebrow">Find your style</span><h1>Search VEYORA</h1></div><form action="{{ routes.search_url }}" method="get" role="search" style="max-width:620px;margin:0 auto 36px;display:flex;gap:10px"><input type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search clothing, footwear, bags..." style="flex:1;min-width:0"><input type="hidden" name="options[prefix]" value="last"><button class="btn" type="submit">Search</button></form>{% if search.performed %}<p>{{ search.results_count }} results for “{{ search.terms | escape }}”</p><div class="grid">{% for item in search.results %}{% if item.object_type == 'product' %}<a class="product-card" href="{{ item.url }}">{% if item.featured_image %}{{ item.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: item.title }}{% endif %}<h3>{{ item.title }}</h3><div class="price">{{ item.price | money }}</div></a>{% else %}<a href="{{ item.url }}"><h3>{{ item.title }}</h3></a>{% endif %}{% endfor %}</div>{% if search.performed and search.results_count == 0 %}<p>No matching products found. Try another search.</p>{% endif %}{% endif %}</section>
-{% schema %}{"name":"Main search","settings":[]}{% endschema %}
+<section class="section search-page">
+  <div class="section-head"><span class="eyebrow">Find your style</span><h1>Search VEYORA</h1></div>
+  <form action="{{ routes.search_url }}" method="get" role="search" class="search-form">
+    <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search clothing, footwear, bags..." aria-label="Search products">
+    <input type="hidden" name="options[prefix]" value="last">
+    <button class="btn" type="submit">Search</button>
+  </form>
+  {% if search.performed %}
+    <p class="search-count">{{ search.results_count }} results for “{{ search.terms | escape }}”</p>
+    {% paginate search.results by 16 %}
+      {% if search.results_count > 0 %}
+        <div class="grid">
+          {% for item in search.results %}
+            {% if item.object_type == 'product' %}
+              <a class="product-card" href="{{ item.url }}">
+                {% if item.featured_image %}{{ item.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: item.featured_image.alt | default: item.title }}{% endif %}
+                <h3>{{ item.title | escape }}</h3><div class="price">{{ item.price | money }}</div>
+              </a>
+            {% else %}
+              <a class="search-other-result" href="{{ item.url }}"><h3>{{ item.title | escape }}</h3></a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="empty-state">No matching results found. Try another search.</p>
+      {% endif %}
+      {% if paginate.pages > 1 %}<nav class="pagination" role="navigation" aria-label="Search pagination">{{ paginate | default_pagination }}</nav>{% endif %}
+    {% endpaginate %}
+  {% endif %}
+</section>
+{% schema %}
+{"name":"Main search","settings":[]}
+{% endschema %}
