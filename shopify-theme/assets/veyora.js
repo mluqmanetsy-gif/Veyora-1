@@ -1,1 +1,1 @@
-document.addEventListener('click',function(e){const menu=e.target.closest('[data-menu-toggle]');if(menu){document.querySelector('[data-mobile-nav]')?.classList.toggle('is-open')}});
+document.addEventListener('click',function(e){const menu=e.target.closest('[data-menu-toggle]');if(menu){const nav=document.querySelector('[data-mobile-nav]');const isOpen=nav?.classList.toggle('is-open')||false;menu.setAttribute('aria-expanded',String(isOpen));}});
