@@ -106,3 +106,28 @@
 .veyora-recommendations .product-card img{width:100%;aspect-ratio:4/5;height:auto;object-fit:contain;background:#f6f2ec}
 .veyora-recommendations .product-card h3{font-size:15px;line-height:1.4}
 @media(max-width:800px){.veyora-recommendations{padding:34px 16px}.veyora-recommendations .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.veyora-recommendations .product-card img{aspect-ratio:4/5;object-fit:contain}}
+
+/* VEYORA collection + Your Bag page layout refinement */
+.collection-page{width:100%;max-width:1320px;margin:0 auto}
+.collection-page .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:start}
+.collection-page .product-card{display:block;min-width:0;width:100%;overflow:hidden}
+.collection-page .product-card img{display:block;width:100%;height:auto;aspect-ratio:4/5;max-height:460px;object-fit:contain;object-position:center;background:#f6f2ec}
+.collection-page .product-card h3,.collection-page .product-card .price{overflow-wrap:anywhere}
+.cart-page{max-width:1180px}
+.cart-page .cart-items{width:100%}
+.cart-page .cart-item{width:100%;grid-template-columns:minmax(110px,160px) minmax(0,1fr) auto;gap:22px;align-items:center}
+.cart-page .cart-item-image{display:block;width:100%;max-width:160px;background:#f6f2ec;overflow:hidden}
+.cart-page .cart-item-image img{display:block;width:100%;height:auto;aspect-ratio:4/5;max-height:210px;object-fit:contain;object-position:center}
+.cart-page .cart-item-info{min-width:0}
+.cart-page .cart-line-total{white-space:nowrap}
+@media(max-width:800px){
+ .collection-page .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .collection-page .product-card img{aspect-ratio:4/5;max-height:none;object-fit:contain}
+ .collection-page .section-head h1{font-size:34px;line-height:1.1}
+ .cart-page .cart-item{grid-template-columns:104px minmax(0,1fr);gap:12px;padding:16px 0;align-items:start}
+ .cart-page .cart-item-image{width:104px}
+ .cart-page .cart-item-image img{width:104px;height:auto;max-height:140px;aspect-ratio:4/5;object-fit:contain}
+ .cart-page .cart-line-total{grid-column:2;white-space:normal;margin-top:-4px}
+ .cart-page .cart-item-title{font-size:20px;line-height:1.2}
+ .cart-page .cart-summary{width:100%;max-width:none}
+}
