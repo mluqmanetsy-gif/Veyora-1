@@ -1,2 +1,14 @@
-<section style="background:var(--ink);color:white;padding:70px 24px;text-align:center"><div class="section" style="padding:0"><span class="eyebrow">{{ section.settings.eyebrow }}</span><h2 style="font-size:clamp(36px,5vw,58px);margin:12px 0">{{ section.settings.heading }}</h2><p style="max-width:650px;margin:0 auto 24px;line-height:1.8;color:#eee">{{ section.settings.text }}</p>{% if section.settings.button_label != blank %}<a class="btn" href="{{ section.settings.button_link | default: routes.all_products_collection_url }}">{{ section.settings.button_label }}</a>{% endif %}</div></section>
-{% schema %}{"name":"Editorial statement","settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Our philosophy"},{"type":"text","id":"heading","label":"Heading","default":"A World of Style, Curated for Her"},{"type":"textarea","id":"text","label":"Text","default":"Rooted in South Asian artistry and shaped by modern silhouettes, VEYORA brings thoughtful style to every day."},{"type":"text","id":"button_label","label":"Button label","default":"Explore VEYORA"},{"type":"url","id":"button_link","label":"Button link"}],"presets":[{"name":"Editorial statement"}]}{% endschema %}
+<section class="veyora-editorial">
+  {% if section.settings.image != blank %}<div class="veyora-editorial-media">{{ section.settings.image | image_url: width: 1600 | image_tag: loading: 'lazy', alt: section.settings.image.alt | default: section.settings.heading }}</div>{% endif %}
+  <div class="veyora-editorial-copy"><span class="eyebrow">{{ section.settings.eyebrow }}</span><h2>{{ section.settings.heading }}</h2><p>{{ section.settings.text }}</p>{% if section.settings.button_label != blank %}<a class="btn" href="{{ section.settings.button_link | default: routes.all_products_collection_url }}">{{ section.settings.button_label }}</a>{% endif %}</div>
+</section>
+{% schema %}
+{"name":"Editorial statement","settings":[
+{"type":"image_picker","id":"image","label":"Editorial image"},
+{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Our philosophy"},
+{"type":"text","id":"heading","label":"Heading","default":"A World of Style, Curated for Her"},
+{"type":"textarea","id":"text","label":"Text","default":"Rooted in South Asian artistry and shaped by modern silhouettes, VEYORA brings thoughtful style to every day."},
+{"type":"text","id":"button_label","label":"Button label","default":"Explore VEYORA"},
+{"type":"url","id":"button_link","label":"Button link"}
+],"presets":[{"name":"Editorial statement"}]}
+{% endschema %}
