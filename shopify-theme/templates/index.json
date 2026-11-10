@@ -641,6 +641,10 @@
         "heading": "Accessories",
         "fallback_banner": "hero_pakistani_accessories_1794307379655.jpg"
       }
+    },
+    "ai-studio": {
+      "type": "veyora-ai-studio",
+      "settings": {}
     }
   },
   "order": [
@@ -648,6 +652,7 @@
     "departments",
     "new-arrivals",
     "editorial",
+    "ai-studio",
     "complete-look",
     "dept-clothes",
     "dept-innerwear",
