@@ -22,13 +22,15 @@
 - Product page renders Shopify product media, title, description, live variant pricing, availability and add-to-cart form.
 - Cart uses Shopify cart items, quantity updates, remove links, live subtotal and Shopify checkout route.
 - Product and cart layouts have responsive mobile styling.
+- Selected-variant price now updates when the shopper changes the variant; mobile navigation closes after a link is selected.
+- The first campaign slide uses the page H1 and subsequent slides use H2 headings.
 - These changes are code-reviewed and schema-JSON validated; Shopify Theme Check and an actual store preview are still pending.
 
 ## Storefront page improvements
 - Collection template includes native Shopify sorting, product count, product cards, pagination, and empty state.
 - Search template uses Shopify search, escaped query display, product cards, pagination, and empty state.
 - Footer includes contact/social details and conditional links to configured Shopify policies.
-- Collection, search, footer, product and cart section schema JSON has been checked for valid JSON. This is not a substitute for Shopify Theme Check or a live preview.
+- All 11 JSON configuration/template files and all 11 Liquid section schemas were parsed successfully; basic Liquid block-balance checks passed. This is not a substitute for Shopify Theme Check or a live preview.
 
 ## Remaining before store-ready
 1. Migrate/choose approved campaign and department images in Shopify theme settings. Original source image binaries have not yet been migrated.
