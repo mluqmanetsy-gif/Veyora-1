@@ -1,1 +1,22 @@
-{"sections":{"main":{"type":"main-product","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {}
+    },
+    "you-may-like": {
+      "type": "veyora-recommendations",
+      "settings": {
+        "eyebrow": "Curated for you",
+        "heading": "You May Also Like",
+        "description": "Discover more pieces to complete your look.",
+        "products_to_show": 4,
+        "button_label": "Explore the collection"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "you-may-like"
+  ]
+}
