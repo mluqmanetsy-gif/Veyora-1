@@ -1,0 +1,6 @@
+{
+  "name": "VEYORA — Modern Women's Fashion & Luxury Pret",
+  "description": "Premium Pakistan-focused women's fashion ecommerce brand featuring Clothes, Innerwear, Nightwear, Footwear, Bags, Accessories, AI Fashion Studio, and seamless Cash on Delivery checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
