@@ -5,7 +5,7 @@
       <div class="veyora-slide-shade"></div>
       <div class="veyora-slide-copy">
         {% if block.settings.eyebrow != blank %}<span class="eyebrow">{{ block.settings.eyebrow | escape }}</span>{% endif %}
-        <h1>{{ block.settings.heading | escape }}</h1>
+        {% if forloop.first %}<h1>{{ block.settings.heading | escape }}</h1>{% else %}<h2>{{ block.settings.heading | escape }}</h2>{% endif %}
         {% if block.settings.text != blank %}<p>{{ block.settings.text }}</p>{% endif %}
         {% if block.settings.button_label != blank %}<a class="btn" href="{{ block.settings.button_link | default: routes.all_products_collection_url }}">{{ block.settings.button_label | escape }}</a>{% endif %}
       </div>
